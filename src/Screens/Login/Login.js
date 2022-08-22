@@ -46,7 +46,7 @@ const Login = ({navigation}) => {
            <View style={styles.bottomView}>
             <Text style={{fontSize:scale(13),color:colors.blackOpacity50}}>Not a Member </Text>
             <TouchableOpacity activeOpacity={0.8} 
-            onPress={()=> navigateTo(navigationStrings.REGISTER)}
+            onPress={()=> navigateTo(navigationStrings.CHOOSEACCOUNT)}
             >
                 <Text style={{fontWeight:'bold',fontSize:scale(13),color:colors.blackOpacity80}}>Join Now</Text>
             </TouchableOpacity>
